@@ -1,11 +1,10 @@
 import { StateUtils } from '../utils/state-utils';
 import { initNear } from './near';
-
 const initialState = {
   app: {
     soldOut: true,
     oneCount: 1,
-    manyCount: 10,
+    manyCount: 3,
     revealMisfits: JSON.parse(localStorage.getItem('revealMisfits')) || {},
     misfitsArray: [],
     linkDropArray: [],
@@ -17,8 +16,8 @@ const initialState = {
     initialized: false,
   },
   price: {
-    oneNFT: 5,
-    manyNFTS: 31.99,
+    oneNFT: 6.5,
+    manyNFTS: 19.5,
     tokenStorageFormat: 0,
     discountFormat: 0,
   },
